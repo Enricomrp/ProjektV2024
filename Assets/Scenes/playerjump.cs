@@ -23,7 +23,7 @@ public class playerjump : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
 
             rb.AddForce(jump * jumpForce, ForceMode.Impulse);
