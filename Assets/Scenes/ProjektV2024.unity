@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: {x: 0, y: 8, z: 0}
-  jumpForce: 2.5
+  jumpForce: 3.5
   isGrounded: 0
 --- !u!54 &951560490
 Rigidbody:
