@@ -345,7 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dff0ed162776884bbaca7194ca1b05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerActive: 1
 --- !u!65 &951769080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -680,7 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: {x: 0, y: 4, z: 0}
-  jumpForce: 2
+  jumpForce: 3.5
   isGrounded: 0
 --- !u!54 &1796789900
 Rigidbody:
